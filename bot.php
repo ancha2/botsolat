@@ -69,7 +69,7 @@ function shalat($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Kenapa gua diundang ke grup lu? ketik /keyword kalau mau tahu gua berguna gk buat nie grup\n\nKlo lu gk suka ama gua, usir aja gua dari sini, ketik \keluar";
+    $text = "terima kasih telah mengundang saya? ketik /keyword kalau mau tahu gua berguna gk buat nie grup\n\nKlo lu gk suka ama gua, usir aja gua dari sini, ketik \keluar";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
